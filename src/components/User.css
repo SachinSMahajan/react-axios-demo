@@ -7,27 +7,27 @@
 .header{
     text-align: left;
 }
-#tblEmployee{
+#tblUser{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: inherit;
   }
 
-  #tblEmployee th
+  #tblUser th
   {
       border: 0.2rem solid gray;
   }
 
- #tblEmployee td
+ #tblUser td
  {
      border: 0.2rem solid gray;
  }
   
- #tblEmployee tr:nth-child(even){background-color: #f3f3f3;}
+ #tblUser tr:nth-child(even){background-color: #f3f3f3;}
 
-#tblEmployee tr:hover {background-color: #ddd;}
+#tblUser tr:hover {background-color: #ddd;}
 
-#tblEmployee th {
+#tblUser th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;

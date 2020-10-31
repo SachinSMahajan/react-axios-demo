@@ -1,11 +1,12 @@
 import './App.css';
-import EmployeeList from './components/EmployeeList';
+import UserList from './components/UserList';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header"> Call API Using Axios </header>
-        <EmployeeList></EmployeeList>
+        <UserList></UserList>
     </div>
   );
 }
